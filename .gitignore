@@ -1,0 +1,105 @@
+# ===============================
+# ECLIPSE
+# ===============================
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders/
+.project
+.classpath
+.factorypath
+
+# ===============================
+# VISUAL STUDIO CODE
+# ===============================
+.vscode
+
+# ===============================
+# JAVASCRIPT / NODE
+# ===============================
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+coverage/
+
+
+# ===============================
+# WINDOWS
+# ===============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===============================
+# LINUX
+# ===============================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===============================
+# MACOS
+# ===============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ===============================
+# GIT
+# ===============================
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# ===============================
+# SECURITY / ENV FILES
+# ===============================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets.yml
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# ===============================
+# INTELLIJ IDEA
+# ===============================
+.idea
+*.iml
+*.ipr
+*.iws
+out/
+.swc
+.idea_modules/
+httpRequests/

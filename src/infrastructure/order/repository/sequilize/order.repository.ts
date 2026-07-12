@@ -1,18 +1,8 @@
 import Order from "../../../../domain/checkout/entity/order";
-import OrderRepositoryInterface from "../../../../domain/checkout/repository/order-repository.interface";
 import OrderItemModel from "./order-item.model";
 import OrderModel from "./order.model";
 
-export default class OrderRepository implements OrderRepositoryInterface {
-  update(entity: Order): Promise<void> {
-    throw new Error("Method not implemented.");
-  }
-  find(id: string): Promise<Order> {
-    throw new Error("Method not implemented.");
-  }
-  findAll(): Promise<Order[]> {
-    throw new Error("Method not implemented.");
-  }
+export default class OrderRepository {
   async create(entity: Order): Promise<void> {
     await OrderModel.create(
       {
